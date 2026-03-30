@@ -38,7 +38,11 @@ class Pet extends Animal {
       }  
   }
 
+@override
   void displayInfo(){ // display info and kindness meter of a pet
+    print('Name: $name');
+    print('Kingdom: $kingdom');
+    print('Date of Birth: $dob');
     print("Nickname: $nickname");
     print("Kindness Meter: $kindness");
   }

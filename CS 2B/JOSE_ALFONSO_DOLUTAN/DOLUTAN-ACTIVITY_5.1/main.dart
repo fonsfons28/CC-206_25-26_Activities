@@ -48,6 +48,7 @@ void main() {// main method
 
       print("\n=========== PET PROFILE =========="); // placeholder
       pet.displayInfo();
+      pet.walk(pet.walkDirection);
       print("==================================\n");
     }
   }
